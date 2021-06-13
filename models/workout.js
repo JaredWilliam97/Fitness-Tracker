@@ -2,26 +2,45 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 const WorkoutSchema = new Schema({
-  // in both sets
-  workoutType: {
-    type: String,
-    validate: [
-      function (v) {
-        return v === "cardio" || v === "resistance";
-      },
-      "Workout Type must be either 'cardio' or 'resistance'.",
-    ],
+  day: {
+    type: Date,
+    default: Date.now,
   },
-  name: String,
-  duration: Number,
-
-  //Cardio
-  distance: Number,
-
-  // Resistance
-  weight: Number,
-  sets: Number,
-  reps: Number,
+  exercises: [
+    {
+      name: {
+        type: String,
+        unique: true,
+        required: true,
+        trim: true,
+      },
+      type: {
+        type: String,
+        required: true,
+        trim: true,
+      },
+      weight: {
+        type: Number,
+        trim: true,
+      },
+      sets: {
+        type: Number,
+        trim: true,
+      },
+      reps: {
+        type: Number,
+        trim: true,
+      },
+      duration: {
+        type: Number,
+        trim: true,
+      },
+      distance: {
+        type: Number,
+        trim: true,
+      },
+    },
+  ],
 });
 
 const Workout = mongoose.model("Workout", WorkoutSchema);
