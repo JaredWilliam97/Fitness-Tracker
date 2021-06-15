@@ -9,7 +9,6 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", {
 let workoutSeed = [
   {
     day: new Date().setDate(new Date().getDate() - 10),
-
     exercises: [
       {
         type: "resistance",

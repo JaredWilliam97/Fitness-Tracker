@@ -1,7 +1,7 @@
 const express = require("express");
-const logger = require("morgan");
 const mongoose = require("mongoose");
-// created port to listen on
+const logger = require("morgan");
+
 const PORT = process.env.PORT || 3000;
 
 const app = express();
@@ -18,7 +18,7 @@ const config = {
   useCreateIndex: true,
   useFindAndModify: false,
 };
-//Created connection to database
+
 mongoose.connect(
   process.env.MONGODB_URI || "mongodb://localhost/workout",
   config
