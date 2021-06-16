@@ -54,6 +54,8 @@ To deploy an application with a MongoDB database to Heroku, you'll need to set u
 
 - The URL to the deployed application
 
+https://lit-inlet-24856.herokuapp.com/
+
 * URL to the GitHub repository
 
 https://github.com/JaredWilliam97/Fitness-Tracker
