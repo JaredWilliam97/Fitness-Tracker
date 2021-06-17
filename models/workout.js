@@ -57,7 +57,7 @@ const WorkoutSchema = new Schema(
     toJSON: { virtuals: true },
   }
 );
-
+//added schema
 const Workout = mongoose.model("Workout", WorkoutSchema);
 
 module.exports = Workout;
