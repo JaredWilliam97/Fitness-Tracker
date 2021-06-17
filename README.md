@@ -5,6 +5,19 @@ Workout Tracker
 ![image](https://user-images.githubusercontent.com/80869140/122142006-21670700-ce14-11eb-953e-7d28223ef963.png)
 
 
+* This picture just shows that I connected to Atlas Mongo Db
+
+![image](https://user-images.githubusercontent.com/80869140/122321327-4bd6c400-cee9-11eb-9ed9-ee5cac0046fa.png)
+
+
+
+
+
+
+* This picture is to show I connected my MongoDb to my code
+
+![image](https://user-images.githubusercontent.com/80869140/122321595-b851c300-cee9-11eb-9639-600474de55ba.png)
+
 
 
 - As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
@@ -23,13 +36,9 @@ You will be able to:
 
 - View the total duration of each workout from the past seven workouts on the `stats` page.
 
-> **Important:** Look into using a MongoDB aggregate function to dynamically add up and return the total duration for each workout. Check out the [MongoDB documentation on the $addFields](https://docs.mongodb.com/manual/reference/operator/aggregation/addFields/), the [MongoDB documentation on the $sum operator](https://docs.mongodb.com/manual/reference/operator/aggregation/sum/), and the [Mongoose documentation on aggregate functions](https://mongoosejs.com/docs/api.html#aggregate_Aggregate) to learn how it can be accomplished.
 
-To deploy an application with a MongoDB database to Heroku, you'll need to set up a MongoDB Atlas account and connect a database from there to your application. Be sure to use the following guides for support:
 
-- [Set Up MongoDB Atlas](../04-Important/MongoAtlas-Setup.md)
 
-- [Deploy with Heroku and MongoDB Atlas](../04-Important/MongoAtlas-Deploy.md)
 
 
 
@@ -59,3 +68,5 @@ https://lit-inlet-24856.herokuapp.com/
 * URL to the GitHub repository
 
 https://github.com/JaredWilliam97/Fitness-Tracker
+
+* Credits: Chip Long, Josh Lee, Alex Jurgs, Lacey Pape, Lauren Gabaldon, Tarik Maggio
