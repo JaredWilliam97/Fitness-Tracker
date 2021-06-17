@@ -5,29 +5,28 @@ const WorkoutSchema = new Schema(
   {
     day: {
       type: Date,
-      //set default to current date.
+
       default: Date.now,
     },
 
-    //exercise array
     exercises: [
       {
-        //type of workout e.g. cardio
+        //type of workout
         type: {
           type: String,
           required: true,
         },
-        //name of workout e.g. jogging
+        //name of the workout
         name: {
           type: String,
           required: true,
         },
-        //duration(in minutes)
+        //duration
         duration: {
           type: Number,
           required: true,
         },
-        //weight (pounds)
+        //weight
         weight: {
           type: Number,
           default: 0,
