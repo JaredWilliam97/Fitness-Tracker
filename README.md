@@ -44,7 +44,7 @@ You will be able to:
 
 
 
-
+* Credits: Chip Long, Josh Lee, Alex Jurgs, Lacey Pape, Lauren Gabaldon, Tarik Maggio
 
 
 
