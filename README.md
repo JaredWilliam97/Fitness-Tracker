@@ -26,9 +26,6 @@ You will be able to:
 
 
 
-- [Set Up MongoDB Atlas](../04-Important/MongoAtlas-Setup.md)
-
-- [Deploy with Heroku and MongoDB Atlas](../04-Important/MongoAtlas-Deploy.md)
 
 
 
