@@ -44,7 +44,7 @@ You will be able to:
 
 
 
-* Credits: Chip Long, Josh Lee, Alex Jurgs, Lacey Pape, Lauren Gabaldon, Tarik Maggio
+
 
 
 
@@ -55,3 +55,5 @@ https://lit-inlet-24856.herokuapp.com/
 * URL to the GitHub repository
 
 https://github.com/JaredWilliam97/Fitness-Tracker
+
+* Credits: Chip Long, Josh Lee, Alex Jurgs, Lacey Pape, Lauren Gabaldon, Tarik Maggio
