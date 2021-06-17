@@ -5,7 +5,7 @@ Workout Tracker
 ![image](https://user-images.githubusercontent.com/80869140/122142006-21670700-ce14-11eb-953e-7d28223ef963.png)
 
 
-
+* This picture just shows that I connected to Atlas Mongo Db
 
 ![image](https://user-images.githubusercontent.com/80869140/122321327-4bd6c400-cee9-11eb-9ed9-ee5cac0046fa.png)
 
