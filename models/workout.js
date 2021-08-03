@@ -8,7 +8,7 @@ const WorkoutSchema = new Schema(
 
       default: Date.now,
     },
-
+    // making some note test
     exercises: [
       {
         //type of workout
