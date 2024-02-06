@@ -1,32 +1,32 @@
-const express = require("express");
-const mongoose = require("mongoose");
-const logger = require("morgan");
+// const express = require("express");
+// const mongoose = require("mongoose");
+// const logger = require("morgan");
 
-const PORT = process.env.PORT || 3000;
+// const PORT = process.env.PORT || 3000;
 
-const app = express();
-app.use(logger("dev"));
+// const app = express();
+// app.use(logger("dev"));
 
-app.use(express.urlencoded({ extended: true }));
-app.use(express.json());
+// app.use(express.urlencoded({ extended: true }));
+// app.use(express.json());
 
-app.use(express.static("public"));
+// app.use(express.static("public"));
 
-const config = {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-  useCreateIndex: true,
-  useFindAndModify: false,
-};
+// const config = {
+//   useNewUrlParser: true,
+//   useUnifiedTopology: true,
+//   useCreateIndex: true,
+//   useFindAndModify: false,
+// };
 
-mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://localhost/workout",
-  config
-);
+// mongoose.connect(
+//   process.env.MONGODB_URI || "mongodb://localhost/workout",
+//   config
+// );
 
-app.use(require("./routes/api"));
-app.use(require("./routes/html"));
+// app.use(require("./routes/api"));
+// app.use(require("./routes/html"));
 
-app.listen(PORT, () => {
-  console.log(`App running on port ${PORT}!`);
-});
+// app.listen(PORT, () => {
+//   console.log(`App running on port ${PORT}!`);
+// });
