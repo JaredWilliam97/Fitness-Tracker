@@ -1,6 +1,4 @@
 [[redirects]]
-from = "/search"
+from = "/*"
 to = "index.html"
 status = 200 
-headers = {X-From = "Netlify"}
-signed = "API_SIGNATURE_TOKEN"
